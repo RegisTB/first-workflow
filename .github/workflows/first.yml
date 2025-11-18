@@ -1,5 +1,3 @@
-name: first
-
 jobs:
     job1:
         name: First job
@@ -16,4 +14,4 @@ jobs:
             - name: Step One
               uses: actions/checkout@v4
             - name: Step Two
-              run: "Get-ChildItem Env | sort-Object Name"         
+              run: "Get-ChildItem Env | sort-Object Name"        
